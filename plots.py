@@ -25,7 +25,10 @@ def plot_with_error(y_col, y_err_col, ylabel, title):
     #plt.title(title)
     plt.legend(loc="upper left", title="Abmessung A×B")
     plt.grid(True, linestyle="--", alpha=0.6)
-    plt.show()
+    plt.tight_layout()
+    #plt.show()
+    plt.savefig(f"{title}.png", format='png', dpi=300)  # PNG speichern
+    plt.close()
 
 # a) Blockierkraft
 plot_with_error("Blockierkraft [N]", "Blockierkraft Abweichung [%]", "Blockierkraft [N]", "Blockierkraft vs. L")
