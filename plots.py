@@ -37,4 +37,4 @@ plot_with_error("Blockierkraft [N]", "Blockierkraft Abweichung [%]", "Blockierkr
 plot_with_error("Nominalstellweg [µm]", "Nominalstellweg Abweichung [%]", "Stellweg [µm]", "Nominalstellweg vs. L")
 
 # c) Kapazität
-plot_with_error("Kapazität [µF]", "Kapazität Abweichung [%]", "Kapazität [µF]", "Kapazität vs. L")
+plot_with_error("elektrische Kapazität [µF]", "Kapazität Abweichung [%]", "elektrische Kapazität [µF]", "Kapazität vs. L")
